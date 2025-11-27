@@ -6,19 +6,9 @@ for Interactive Time Series Forecasting. </h1>
 
 
 
-## 📢 News
-
-<details open>
-<summary><b>Recent Updates</b></summary>
-
-- [2025.11.26]**The Alphacast code has been open-sourced**
-- [2025.11.12] **Alphacast initialized**：arxiv：[AlphaCast: A Human Wisdom-LLM Intelligence Co-Reasoning Framework for Interactive Time Series Forecasting](https://arxiv.org/abs/2511.08947)
-
-</details>
-
 ## 🧠 Overview
 
-AlphaCast is a **human wisdom–LLM intelligence co-reasoning** framework for time series forecasting, redefining the task from a traditional one-shot prediction pipeline into an interactive multi-stage cognitive process. Unlike static forecasting models, AlphaCast enables step-by-step collaboration between human expertise and LLM intelligence to jointly accomplish **contextual grounding, generative forecasting, evaluation, and reflective refinement**.The framework systematically integrates statistical and temporal features, domain knowledge, contextual information, and case-based reasoning to construct a unified forecasting workflow. Through its generative reasoning module and reflective optimization mechanism, AlphaCast delivers strong performance on both short-term and long-term forecasting tasks, demonstrating robust adaptability to complex, real-world dynamic environments.
+AlphaCast is a **human-knowledge-augmented LLM reasoning** framework for time series forecasting, redefining the task from a traditional one-shot prediction pipeline into an interactive two-stage cognitive process. Unlike static forecasting models, AlphaCast enables step-by-step collaboration between human expertise and LLM intelligence to jointly accomplish **contextual grounding and reasoning-based forcasting**.The framework systematically integrates statistical and temporal features, domain knowledge, contextual information, and case-based reasoning to construct a unified forecasting workflow. Through its generative reasoning module and reflective optimization mechanism, AlphaCast delivers strong performance on both short-term and long-term forecasting tasks, demonstrating robust adaptability to complex, real-world dynamic environments.
 
 <p align="center"><img src="./assets/framework.png" width="900px" alt="RICO Framework" /></p>
 
@@ -75,11 +65,9 @@ AlphaCast consistently achieves the best performance across most datasets, demon
 
 ## 🥰 Acknowledgements
 
-We would like to express our sincere appreciation to the creators of [Pydantic AI](https://ai.pydantic.dev/)  and [thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library) for providing such a robust framework, which has been integral to the success of our project.Additionally, we are deeply thankful for the insightful feedback and contributions from the collaborators of this work, including Xiaohan Zhang, Tian Gao, Bokai Pan, Ze Guo, Yaguo Liu, Xiaoyu Tao, and Jiahao Wang. It is their dedicated efforts and invaluable contributions that have made this work possible.
+We would like to express our sincere appreciation to the creators of [Pydantic AI](https://ai.pydantic.dev/) for providing such a robust framework, which has been integral to the success of our project. Additionally, we are deeply thankful for the insightful feedback and contributions from the collaborators of this work, including Xiaohan Zhang, Tian Gao, Bokai Pan, Ze Guo, Yaguo Liu, Xiaoyu Tao, and Jiahao Wang. It is their dedicated efforts and invaluable contributions that have made this work possible.
 
 ## ✍️ Citation
-
-AlphaCast
 
 ```md
 @article{zhang2025alphacast,
